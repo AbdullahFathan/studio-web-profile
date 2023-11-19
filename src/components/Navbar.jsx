@@ -7,9 +7,7 @@ const Navbar = () => {
       <div className="hidden h-10 font-alata md:flex md:space-x-8">
         {navbarConst.map((item, index) => (
           <div key={index} className="group">
-            <a href="#" clas>
-              {item}
-            </a>
+            <a href="#">{item}</a>
             <div className=" mx-2 group-hover:border-b group-hover:border-blue-50" />
           </div>
         ))}
